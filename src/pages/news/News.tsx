@@ -42,7 +42,7 @@ const News = () => {
 
   const refreshComments = useCallback(() => {
     dispatch(updateComments());
-  }, []);
+  }, [updateComments]);
 
   useEffect(() => {
     dispatch(getArticle(Number(id)));
