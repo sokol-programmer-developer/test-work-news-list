@@ -103,7 +103,7 @@ const News = () => {
             <a
               href={url}
               className={styles.link}
-              target={"_blank"}
+              target={"blank"}
             >
               Read more!
             </a>
