@@ -28,7 +28,7 @@ const News = () => {
     } else {
       dispatch(getArticle(Number(id)))
     }
-  }, [])
+  })
 
   const loadComments = useCallback(() => {
     if (article !== null && article.kids) {
