@@ -34,7 +34,7 @@ const News = () => {
     if (article !== null && article.kids) {
       dispatch(getCommentsByIds(article.kids))
     }
-  }, [article])
+  }, [article, dispatch])
 
   useEffect(() => {
     loadComments()
@@ -42,12 +42,12 @@ const News = () => {
 
   const refreshComments = useCallback(() => {
     dispatch(updateComments());
-  }, [updateComments]);
+  }, [dispatch]);
 
   useEffect(() => {
     dispatch(getArticle(Number(id)));
     getComments();
-  }, [refreshComments])
+  })
   
   useEffect(() => {
     const interval = setInterval(() => {
