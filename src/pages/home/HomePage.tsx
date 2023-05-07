@@ -20,7 +20,7 @@ const HomePage: React.FC = () => {
       dispatch(getNews())
     }, 60000)
     return () => clearInterval(interval)
-  }, [getNews])
+  })
 
 
 
