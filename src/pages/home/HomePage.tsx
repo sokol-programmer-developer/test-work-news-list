@@ -13,7 +13,7 @@ const HomePage: React.FC = () => {
 
   useEffect(() => {
     dispatch(getNews())
-  }, [])
+  })
   
   useEffect(() => {
     const interval = setInterval(() => {
