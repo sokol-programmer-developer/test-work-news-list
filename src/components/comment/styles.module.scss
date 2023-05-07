@@ -1,0 +1,48 @@
+.comment {
+  margin-bottom: 25px;
+  padding-left: 10px;
+  border-left: 1px dotted black;
+  font-size: 17px;
+  text-align: justify;
+
+  & a {
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.info {
+  padding-bottom: 5px;
+  color: gray;
+  font-size: 14px;
+}
+
+.btn {
+  margin: 5px 0;
+  width: 110px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  border: 1px solid black;
+  transition: 0.2s;
+  border-radius: 3px;
+  padding: 5px;
+  background: lightgray;
+  cursor: pointer;
+  box-shadow: 2px 3px 5px 0 rgba(0,0,0,0.75);
+
+  &:hover {
+    box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.75);
+  }
+}
+
+.visibleCom {
+  display: block;
+  padding-left: 25px;
+}
+
+.hideCom {
+  display: none;
+}
+

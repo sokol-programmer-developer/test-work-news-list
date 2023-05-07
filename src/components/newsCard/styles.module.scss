@@ -1,0 +1,44 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+  padding: 5px 0;
+  margin: 5px 0;
+  transition: 0.2s;
+  display: flex;
+  border-bottom: 1px dotted gray;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    -webkit-box-shadow: 4px 4px 8px 0 rgba(33, 150, 243, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0 rgba(33, 150, 243, 0.2);
+    box-shadow: 4px 4px 8px 0 rgba(33, 150, 243, 0.2);
+
+    .wrapper {
+      text-decoration: underline;
+    }
+  }
+
+  h2 {
+    padding-bottom: 5px;
+  }
+}
+
+.by {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.annotate {
+  width: 255px;
+  box-sizing: border-box;
+  padding-right: 10px;
+  border-right: 1px dotted black;
+  flex-shrink: 0;
+}
+
+.wrapper {
+  padding-left: 20px;
+}

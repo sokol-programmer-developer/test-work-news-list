@@ -1,0 +1,16 @@
+.p {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  a {
+    padding-left: 15px;
+    color: #2196f3;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

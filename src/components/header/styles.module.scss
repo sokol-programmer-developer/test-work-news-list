@@ -1,0 +1,27 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  font-family: "Nunito", sans-serif;
+  background: #ECECEC;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-radius: 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #2196f3;
+  transition: 0.2s;
+
+  &:hover {
+    color: #FFFFFF;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  }
+}
